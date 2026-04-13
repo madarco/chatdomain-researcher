@@ -1,5 +1,5 @@
 ---
-name: domain-research
+name: domain-finder
 description: "Find the perfect available domain name for a product idea. Researches competitors, generates name theses, checks availability in parallel, and ranks the best options. Use when the user wants to find, brainstorm, or research domain names."
 ---
 

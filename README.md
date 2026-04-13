@@ -4,7 +4,7 @@ Domain name research plugin — find available domain names, check availability 
 
 ## Skills
 
-- `/domain-research` — Find the perfect available domain name for a product idea. Generates naming theses, checks availability in parallel, and ranks the best options with pricing.
+- `/domain-finder` — Find the perfect available domain name for a product idea. Generates naming theses, checks availability in parallel, and ranks the best options with pricing.
 
 ## Installation
 
