@@ -1,0 +1,22 @@
+{
+  "name": "chatdomain",
+  "owner": {
+    "name": "ChatDomain"
+  },
+  "metadata": {
+    "description": "Domain name research tools for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "chatdomain",
+      "source": ".",
+      "description": "ChatDomain plugin for domain name research — check availability and pricing across TLDs",
+      "version": "1.0.0",
+      "author": {
+        "name": "ChatDomain"
+      },
+      "keywords": ["domains", "dns", "naming", "branding"],
+      "category": "development"
+    }
+  ]
+}

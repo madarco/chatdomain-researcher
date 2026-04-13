@@ -1,0 +1,8 @@
+{
+  "name": "chatdomain",
+  "description": "ChatDomain plugin for domain name research — check availability and pricing across TLDs",
+  "version": "1.0.0",
+  "author": {
+    "name": "ChatDomain"
+  }
+}
