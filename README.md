@@ -1,8 +1,16 @@
-# ChatDomain Researcher
+<h1 style="font-weight:normal">
+  &nbsp;ChatDomain&nbsp;
+  <a href="https://www.npmjs.com/package/chatdomain"><img src="https://img.shields.io/npm/d18m/chatdomain?label=npm" /></a>
+  <a href="https://github.com/madarco/chatdomain-researcher/blob/main/LICENSE"><img src="https://img.shields.io/github/license/madarco/chatdomain-researcher.svg?colorB=ff0000"></a>
+  <img src="https://img.shields.io/github/stars/madarco/chatdomain-researcher" />
+</h1>
 
 Domain name research toolkit — find available domain names, check availability across TLDs, and compare registration prices. Works as a CLI, REST API, Claude Code skill, Claude Code plugin, or MCP server.
 
+<p align="center">
+
 ![ChatDomain Demo](demo.gif)
+</p>
 
 ```bash
 $ npx skills add https://github.com/madarco/chatdomain-researcher --skill domain-researcher
