@@ -1,22 +1,43 @@
 {
   "name": "chatdomain",
   "owner": {
-    "name": "ChatDomain"
+    "name": "ChatDomain",
+    "email": "marco@chatdomain.ai"
   },
   "metadata": {
     "description": "Domain name research tools for Claude Code"
   },
   "plugins": [
     {
-      "name": "chatdomain",
-      "source": ".",
-      "description": "ChatDomain plugin for domain name research — check availability and pricing across TLDs",
+      "name": "chatdomain-researcher",
+      "source": "./",
+      "description": "Domain name research — check availability across TLDs, compare registration prices, and find the perfect domain for your product",
       "version": "1.0.0",
       "author": {
-        "name": "ChatDomain"
+        "name": "ChatDomain",
+        "email": "marco@chatdomain.ai"
       },
-      "keywords": ["domains", "dns", "naming", "branding"],
-      "category": "development"
+      "homepage": "https://chatdomain.ai",
+      "repository": "https://github.com/madarco/chatdomain-researcher",
+      "license": "MIT",
+      "keywords": [
+        "domains",
+        "dns",
+        "naming",
+        "branding",
+        "availability",
+        "pricing"
+      ],
+      "category": "development",
+      "tags": [
+        "domains",
+        "dns",
+        "naming",
+        "branding",
+        "availability",
+        "pricing"
+      ],
+      "strict": false
     }
   ]
 }

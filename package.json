@@ -1,0 +1,14 @@
+{
+  "name": "chatdomain",
+  "version": "1.0.0",
+  "description": "ChatDomain plugin for Claude Code — domain name research, availability checking, and pricing",
+  "bin": {
+    "chatdomain": "./bin/chatdomain.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["domain", "dns", "availability", "pricing", "cli", "naming", "branding"],
+  "license": "MIT"
+}

@@ -1,8 +1,27 @@
 {
-  "name": "chatdomain",
-  "description": "ChatDomain plugin for domain name research — check availability and pricing across TLDs",
+  "name": "chatdomain-researcher",
   "version": "1.0.0",
+  "description": "Domain name research — check availability across TLDs, compare registration prices, and find the perfect domain for your product",
   "author": {
-    "name": "ChatDomain"
-  }
+    "name": "ChatDomain",
+    "url": "https://chatdomain.ai"
+  },
+  "homepage": "https://chatdomain.ai",
+  "repository": "https://github.com/madarco/chatdomain-researcher",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "domains",
+    "dns",
+    "naming",
+    "branding",
+    "availability",
+    "pricing"
+  ],
+  "skills": [
+    "./skills/"
+  ],
+  "commands": [
+    "./bin/"
+  ]
 }
