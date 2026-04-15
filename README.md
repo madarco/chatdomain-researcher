@@ -7,8 +7,14 @@ Domain name research toolkit — find available domain names, check availability
 Quick domain checks from the terminal:
 
 ```bash
-npx chatdomain check stripe,notion,linear --tlds=com,ai,io
-npx chatdomain prices stripe.com,notion.ai,linear.dev
+$ npx chatdomain check madarco.ai
+madarco: .ai
+
+$ npx chatdomain prices madarco.ai
+madarco.ai - godaddy: $79.99, namecheap: $69.99, netim: $105, vercel: $80
+
+$ npx chatdomain check stripe,notion,linear --tlds=com,ai,io
+$ npx chatdomain prices stripe.com,notion.ai,linear.dev
 ```
 
 ### Commands
