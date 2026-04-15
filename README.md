@@ -2,6 +2,24 @@
 
 Domain name research toolkit — find available domain names, check availability across TLDs, and compare registration prices. Works as a CLI, REST API, Claude Code skill, Claude Code plugin, or MCP server.
 
+## Skill: `/domain-researcher`
+
+An AI-powered domain naming strategist for Claude Code. Describe your product idea and it will:
+
+1. Research competitors and naming patterns in your space
+2. Generate 5 distinct naming theses (professional, playful, technical, compound, abstract)
+3. Launch 5 parallel agents — each generating 15-20 name ideas with variations
+4. Check availability across all TLDs `.com`, `.ai`, `.io`, etc.
+5. Rank the top domains by quality, fetch live pricing, and present results
+
+### Install the skill
+
+```bash
+npx skills add https://github.com/madarco/chatdomain-researcher --skill domain-researcher
+```
+
+Then use `/domain-researcher` in Claude Code.
+
 ## CLI
 
 Quick domain checks from the terminal:
@@ -45,24 +63,6 @@ The ChatDomain API is available at `https://api.chatdomain.ai/api`.
 curl "https://api.chatdomain.ai/api/check?names=stripe,notion&tlds=com,ai,io"
 curl "https://api.chatdomain.ai/api/prices?domains=stripe.com,notion.ai"
 ```
-
-## Skill: `/domain-researcher`
-
-An AI-powered domain naming strategist for Claude Code. Describe your product idea and it will:
-
-1. Research competitors and naming patterns in your space
-2. Generate 5 distinct naming theses (professional, playful, technical, compound, abstract)
-3. Launch 5 parallel agents — each generating 15-20 name ideas with variations
-4. Check availability across all TLDs `.com`, `.ai`, `.io`, etc.
-5. Rank the top domains by quality, fetch live pricing, and present results
-
-### Install the skill
-
-```bash
-npx skills add https://github.com/madarco/chatdomain-researcher --skill domain-researcher
-```
-
-Then use `/domain-researcher` in Claude Code.
 
 ## Claude Code Plugin
 
