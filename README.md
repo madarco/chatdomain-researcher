@@ -2,9 +2,24 @@
 
 Domain name research toolkit — find available domain names, check availability across TLDs, and compare registration prices. Works as a CLI, REST API, Claude Code skill, Claude Code plugin, or MCP server.
 
+![ChatDomain Demo](demo.gif)
+
+```bash
+$ npx skills add https://github.com/madarco/chatdomain-researcher --skill domain-researcher
+# For Claude Code, OpenClaw, Codex, OpenCode etc.
+
+$ npx chatdomain check madarco.ai
+# madarco: .ai
+
+$ npx chatdomain prices madarco.ai
+# madarco.ai - godaddy: $79.99, namecheap: $69.99, netim: $105, vercel: $80
+```
+
 ## Skill: `/domain-researcher`
 
-An AI-powered domain naming strategist for Claude Code. Describe your product idea and it will:
+An AI-powered domain naming strategist for Claude Code, OpenClaw, Codex, OpenCode etc.
+
+Describe your product idea and it will:
 
 1. Research competitors and naming patterns in your space
 2. Generate 5 distinct naming theses (professional, playful, technical, compound, abstract)
