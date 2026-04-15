@@ -35,8 +35,13 @@ async function check(names, tlds) {
     console.error(`Error: ${res.status} ${res.statusText}`);
     process.exit(1);
   }
-  const data = await res.json();
-  console.log(JSON.stringify(data, null, 2));
+  const text = await res.text();
+  try {
+    const data = JSON.parse(text);
+    console.log(JSON.stringify(data, null, 2));
+  } catch {
+    console.log(text);
+  }
 }
 
 async function prices(domains) {
@@ -46,8 +51,13 @@ async function prices(domains) {
     console.error(`Error: ${res.status} ${res.statusText}`);
     process.exit(1);
   }
-  const data = await res.json();
-  console.log(JSON.stringify(data, null, 2));
+  const text = await res.text();
+  try {
+    const data = JSON.parse(text);
+    console.log(JSON.stringify(data, null, 2));
+  } catch {
+    console.log(text);
+  }
 }
 
 const [command, ...rest] = process.argv.slice(2);
