@@ -12,7 +12,7 @@
       "name": "chatdomain-researcher",
       "source": "./",
       "description": "Domain name research — check availability across TLDs, compare registration prices, and find the perfect domain for your product",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "ChatDomain",
         "email": "marco@chatdomain.ai"
