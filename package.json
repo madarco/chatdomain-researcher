@@ -10,5 +10,9 @@
     "node": ">=18"
   },
   "keywords": ["domain", "dns", "availability", "pricing", "cli", "naming", "branding"],
+  "scripts": {
+    "publish:patch": "npm version patch && git push --follow-tags",
+    "publish:minor": "npm version minor && git push --follow-tags"
+  },
   "license": "MIT"
 }
