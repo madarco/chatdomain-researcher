@@ -14,7 +14,7 @@ Domain name research toolkit — find available domain names, check availability
 
 ```bash
 $ npx skills add https://github.com/madarco/chatdomain-researcher --skill domain-researcher
-# For Claude Code, OpenClaw, Codex, OpenCode etc.
+# For Claude Code, Cursor, OpenClaw, Codex, OpenCode etc.
 
 $ npx chatdomain check madarco.ai
 # madarco: .ai
@@ -25,7 +25,7 @@ $ npx chatdomain prices madarco.ai
 
 ## Skill: `/domain-researcher`
 
-An AI-powered domain naming strategist for Claude Code, OpenClaw, Codex, OpenCode etc.
+An AI-powered domain naming strategist for Claude Code, Cursor, OpenClaw, Codex, OpenCode etc.
 
 Describe your product idea and it will:
 
