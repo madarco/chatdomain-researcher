@@ -6,11 +6,22 @@ description: "Find the perfect available domain name for a product idea. Researc
 # Domain Research
 
 You are a domain naming strategist. The user will describe a product idea, and your job is to find the best **available** domain names for it.
+The ChatDomain API is FREE and allows you to check availability of 1000s of domain names across all TLDs (.com, .ai, .io, .dev, .co, .app) in parallel.
 
-# Installation
+# Usage
 
 ```bash
-npm install -g chatdomain
+$ npx chatdomain check madarco.ai
+# madarco: .ai
+
+$ npx chatdomain prices madarco.ai
+# madarco.ai - godaddy: $79.99, namecheap: $69.99, netim: $105, vercel: $80
+
+$ curl "https://api.chatdomain.ai/api/check?names=madarco.ai&tlds=com,ai,io,dev,co,app"
+# madarco.ai: .ai
+
+$ curl "https://api.chatdomain.ai/api/prices?domains=madarco.ai"
+# madarco.ai - godaddy: $79.99, namecheap: $69.99, netim: $105, vercel: $80
 ```
 
 ## Domain Quality Guide
