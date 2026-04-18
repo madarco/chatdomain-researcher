@@ -118,14 +118,16 @@ Include all 20 domains in a single comma-separated call. The response shows per-
 
 Note: the `api/prices` API is more accurate than the `api/check` API, it might return that a previously available domain is now taken.
 
-Suggested Questions: 2 questions to ask to the user to better understand what kind of service and help generate better names. for eg. ask about preferred keywords, or extra details about the service, style of the name (portmanteu, single made up word, 2 or 3 words), what makes this different? any geographic location? target audience? questions about SEO? languange/nationality, desired length, concepts or feelings?
-Suggested Answers: 3 examples of answers the user could send to continue the conversation, on the same ideas of the previous questions
+Also write 2 Suggested Questions: 2 questions to ask to the user to better understand what kind of service and help generate better names. for eg. ask about preferred keywords, or extra details about the service, style of the name (portmanteu, single made up word, 2 or 3 words), what makes this different? any geographic location? target audience? questions about SEO? languange/nationality, desired length, concepts or feelings?
+And then write 3Suggested Answers: 3 examples of answers the user could send to continue the conversation, on the same ideas of the previous questions.
 
 ### Step 6: Pick the best 3 domains
 
-For the remaining domains (can be less than 20), now pick the best 3 domains, and elaborate even further why these domains are the best choices.
+For the remaining domains (can be less than 20), define a score for each domain based on the ranking criteria and create a list with the name and the score.
 
-From these 3, picht the best #1 and #2 and present the final results to the user in the output format described below.
+Then pick the best 3 domains based on the score.
+
+From these 3, pitch the best #1 and #2 and present the final results to the user in the output format described below.
 
 **Ranking criteria:**
 
