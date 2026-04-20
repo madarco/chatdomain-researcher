@@ -165,17 +165,17 @@ then a list of the top 10 domains with:
 - a single short sentence on why this domain is better than the others, and one problem with this name
 - each domain should be a link to the domain checker.
 
-| Domain                 | Price  | Why            | Link                                            |
-| ---------------------- | ------ | -------------- | ----------------------------------------------- | --- |
-| [favicon] **name.com** | $12.99 | [explaination] | [View](https://chatdomain.ai/check/?n=name.com) |
-| [favicon] **name.ai**  | $9.99  | [explaination] | [View](https://chatdomain.ai/check/?n=name.ai)  |
-| ...                    | ...    | ...            | ...                                             | ... |
+| Domain                 | Price  | Why            | Link                                         |
+| ---------------------- | ------ | -------------- | -------------------------------------------- | --- |
+| [favicon] **name.com** | $12.99 | [explaination] | [View](https://chatdomain.ai/check/name.com) |
+| [favicon] **name.ai**  | $9.99  | [explaination] | [View](https://chatdomain.ai/check/name.ai)  |
+| ...                    | ...    | ...            | ...                                          | ... |
 ```
 
 At the end: ask the user "What do you want to do next? Or type what domains stuck you and I will elaborate more on them", and propose 3 of the previous Suggested Answers with your question making format or tool.
 
 **Important formatting rules:**
 
-- Every domain MUST link to `https://chatdomain.ai/check/?n={domain}` (e.g., `https://chatdomain.ai/check/?n=example.com`)
+- Every domain MUST link to `https://chatdomain.ai/check/{domain}` (e.g., `https://chatdomain.ai/check/example.com`)
 - If a domain is premium, show the price: `name.com (premium $2,499)`
 - Only show available domains — never suggest a domain that wasn't confirmed available by the API
