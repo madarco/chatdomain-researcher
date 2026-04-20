@@ -2,7 +2,7 @@
   "mcpServers": {
     "chatdomain": {
       "type": "http",
-      "url": "https://api.chatdomain.ai/mcp"
+      "url": "https://chatdomain.ai/mcp"
     }
   }
 }

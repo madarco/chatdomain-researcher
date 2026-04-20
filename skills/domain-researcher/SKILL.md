@@ -17,10 +17,10 @@ $ npx chatdomain check madarco.ai
 $ npx chatdomain prices madarco.ai
 # madarco.ai - godaddy: $79.99, namecheap: $69.99, netim: $105, vercel: $80
 
-$ curl "https://api.chatdomain.ai/api/check?names=madarco.ai&tlds=com,ai,io,dev,co,app"
+$ curl "https://chatdomain.ai/api/check?names=madarco.ai&tlds=com,ai,io,dev,co,app"
 # madarco.ai: .ai
 
-$ curl "https://api.chatdomain.ai/api/prices?domains=madarco.ai"
+$ curl "https://chatdomain.ai/api/prices?domains=madarco.ai"
 # madarco.ai - godaddy: $79.99, namecheap: $69.99, netim: $105, vercel: $80
 ```
 
@@ -85,7 +85,7 @@ Adapt these theses to the specific product. For example, a B2B finance tool shou
 3. Check availability by calling the API via curl:
 
    ```
-   curl "https://api.chatdomain.ai/api/check?names=name1,name2,...&tlds=com,ai,io,dev,co,app"
+   curl "https://chatdomain.ai/api/check?names=name1,name2,...&tlds=com,ai,io,dev,co,app"
    ```
 
    - The API accepts up to 10 names × 15 TLDs per call. Batch efficiently.
@@ -111,7 +111,7 @@ Once all 5 agents return, review all ~50 candidates and pick the **20 best domai
 **Get updated prices:** After selecting the top 20, fetch their current registration prices by calling:
 
 ```
-curl "https://api.chatdomain.ai/api/prices?domains=domain1.com,domain2.ai,..."
+curl "https://chatdomain.ai/api/prices?domains=domain1.com,domain2.ai,..."
 ```
 
 Include all 20 domains in a single comma-separated call. The response shows per-provider prices (godaddy, namecheap, netim, vercel) and premium pricing. Use the **lowest available price** for each domain in the final table.

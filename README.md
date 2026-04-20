@@ -10,6 +10,7 @@ Domain name research toolkit — find available domain names, check availability
 <p align="center">
 
 ![ChatDomain Demo](demo.gif)
+
 </p>
 
 ```bash
@@ -73,7 +74,7 @@ npm install -g chatdomain
 
 ## REST API
 
-The ChatDomain API is available at `https://api.chatdomain.ai/api`.
+The ChatDomain API is available at `https://chatdomain.ai/api`.
 
 | Endpoint                                      | Method | Description                                            |
 | --------------------------------------------- | ------ | ------------------------------------------------------ |
@@ -83,8 +84,8 @@ The ChatDomain API is available at `https://api.chatdomain.ai/api`.
 ### Examples
 
 ```bash
-curl "https://api.chatdomain.ai/api/check?names=stripe,notion&tlds=com,ai,io"
-curl "https://api.chatdomain.ai/api/prices?domains=stripe.com,notion.ai"
+curl "https://chatdomain.ai/api/check?names=stripe,notion&tlds=com,ai,io"
+curl "https://chatdomain.ai/api/prices?domains=stripe.com,notion.ai"
 ```
 
 ## Claude Code Plugin
@@ -111,7 +112,7 @@ Add to your `.mcp.json` or MCP client settings:
   "mcpServers": {
     "chatdomain": {
       "type": "http",
-      "url": "https://api.chatdomain.ai/mcp"
+      "url": "https://chatdomain.ai/mcp"
     }
   }
 }

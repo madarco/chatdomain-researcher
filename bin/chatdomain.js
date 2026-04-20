@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const API_BASE = "https://api.chatdomain.ai/api";
+const API_BASE = "https://chatdomain.ai/api";
 
 function usage() {
   console.log(`Usage:
