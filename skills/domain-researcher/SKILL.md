@@ -32,7 +32,7 @@ A great domain is:
 - **Memorable** — easy to spell, say out loud, and recall after hearing once.
 - **Brandable** — feels like a company name, not a keyword string. "Stripe" > "onlinepayments".
 - **No hyphens, no numbers** — these kill credibility and memorability.
-- **Clean history** — not a recycled spam domain.
+- **Readable** — easy to pronounce and understand. Also accounting for the TLD: avoid repetition like signalai.ai.
 - **.com is king** — prioritize .com but .ai, .io, .dev, .co, .app are strong for tech products. Match the TLD to the audience.
 
 **Value tiers** (approximate):
