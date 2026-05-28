@@ -118,8 +118,8 @@ Include all 20 domains in a single comma-separated call. The response shows per-
 
 Note: the `api/prices` API is more accurate than the `api/check` API, it might return that a previously available domain is now taken.
 
-Also write 2 Suggested Questions: 2 questions to ask to the user to better understand what kind of service and help generate better names. for eg. ask about preferred keywords, or extra details about the service, style of the name (portmanteu, single made up word, 2 or 3 words), what makes this different? any geographic location? target audience? questions about SEO? languange/nationality, desired length, concepts or feelings?
-And then write 3Suggested Answers: 3 examples of answers the user could send to continue the conversation, on the same ideas of the previous questions.
+Also write 2 Suggested Questions: 2 questions to ask to the user to better understand what kind of service and help generate better names. for eg. ask about preferred keywords, or extra details about the service, style of the name (portmanteu, single made up word, 2 or 3 words), what makes this different? any geographic location? target audience? questions about SEO? language/nationality, desired length, concepts or feelings?
+And then write 3 Suggested Answers: 3 examples of answers the user could send to continue the conversation, on the same ideas of the previous questions.
 
 ### Step 6: Pick the best 3 domains
 
@@ -172,7 +172,7 @@ then a list of the top 10 domains with:
 | ...                    | ...    | ...            | ...                                          | ... |
 ```
 
-At the end: ask the user "What do you want to do next? Or type what domains stuck you and I will elaborate more on them", and propose 3 of the previous Suggested Answers with your question making format or tool.
+At the end: ask the user "What do you want to do next? Or type what domains struck you and I will elaborate more on them", and propose 3 of the previous Suggested Answers with your question making format or tool.
 
 **Important formatting rules:**
 
